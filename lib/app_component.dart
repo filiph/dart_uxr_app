@@ -12,5 +12,9 @@ import 'package:angular2_components/angular2_components.dart';
   providers: const [materialProviders],
 )
 class AppComponent {
-  // Nothing here yet. All logic is in HelloDialog.
+  int count = 0;
+
+  void increment() {
+    count += 1;
+  }
 }
